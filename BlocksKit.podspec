@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
-  s.name                  = 'BlocksKit'
-  s.version               = '2.2.6'
+  s.name                  = 'NGBlocksKit'
+  s.version               = '1.0.0'
   s.license               = 'MIT'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
-  s.homepage              = 'https://zwaldowski.github.io/BlocksKit'
+  s.homepage              = 'https://github.com/never88gone/BlocksKit'
   s.author                = { 'Zachary Waldowski' => 'zach@waldowski.me',
-                              'Alexsander Akers'  => 'a2@pnd.mn' }
-  s.source                = { :git => 'https://github.com/zwaldowski/BlocksKit.git', :tag => "v#{s.version}" }
+                              'Alexsander Akers'  => 'a2@pnd.mn' ,
+                              'never88gone.cn'  => 'hsb@myit2017.mn' }
+  s.source                = { :git => 'https://github.com/never88gone/BlocksKit', :tag => "v#{s.version}" }
   s.requires_arc          = true
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '6.0'
