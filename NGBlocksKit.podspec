@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                = { 'Zachary Waldowski' => 'zach@waldowski.me',
                               'Alexsander Akers'  => 'a2@pnd.mn' ,
                               'never88gone.cn'  => 'hsb@myit2017.mn' }
-  s.source                = { :git => 'https://github.com/never88gone/BlocksKit', :tag => "v#{s.version}" }
+  s.source                = { :git => 'https://github.com/never88gone/BlocksKit', :tag => "#{s.version}" }
   s.requires_arc          = true
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '6.0'
